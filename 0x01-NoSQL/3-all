@@ -1,0 +1,4 @@
+// This script list documents in collection "school"
+// Database name will be passed as option mongo
+
+db.school.find()
