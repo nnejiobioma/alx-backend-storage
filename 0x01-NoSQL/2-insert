@@ -1,0 +1,5 @@
+//script that inserts document in collection "school"
+//Document muct have name: “Holberton school”
+//db name will be passed as option mongo command
+
+db.school.insert({"name": "Holberton school"})
