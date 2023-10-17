@@ -1,0 +1,10 @@
+// Script that adds a new attribute to document
+// In collection "school"
+// Script should update document name="Holberton school"
+// Add attribute "address" and use "mongo" command
+
+db.school.update(
+    {name: "Holberton school"},
+    {$set: {address: "972 Mission street"}},
+    {multi: true}
+)
