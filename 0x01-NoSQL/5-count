@@ -1,0 +1,4 @@
+// This script that displays number in the
+// collection "school" with "mongo"command
+
+db.school.count()
